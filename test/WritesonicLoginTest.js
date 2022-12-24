@@ -1,43 +1,15 @@
-Feature('logintest of writesonic');
+const allure = codeceptjs.container.plugins('allure');
 
-Before(({ I, loginPage, expectedAssertionsPage, testDataPage }) => {
+Feature('verify login feature of writesonic');
+
+
+Scenario('@verify login using Google',async ({ I, loginPage, testDataPage, expectedAssertionsPage }) => {
+    allure.severity('CRITICAL');
     I.amOnPage(testDataPage.home.baseUrl);
-    I.seeTitleEquals(expectedAssertionsPage.home.title);
-    I.see(expectedAssertionsPage.home.homePage);
-    loginPage.clickOnSignInTab();
-
-});
-
-Scenario('@verify login By Invalid Password', ({ I, loginPage, testDataPage, expectedAssertionsPage }) => {
-    loginPage.setEmail(testDataPage.login.email);
-    loginPage.setPassword(testDataPage.login.invalidpassword);
-    loginPage.clickOnBtnSignIn();
-    I.see(expectedAssertionsPage.login.wrongpassword);
-
-});
-Scenario('@verify login By Invalid Email', ({ I, loginPage, testDataPage, expectedAssertionsPage }) => {
-    loginPage.setEmail(testDataPage.login.invalidemail);
-    loginPage.setPassword(testDataPage.login.password);
-    loginPage.clickOnBtnSignIn();
-    I.see(expectedAssertionsPage.login.invalidemailId);
-});
-Scenario('@verify login By Mandatory Validation For Email', ({ I, loginPage, testDataPage, expectedAssertionsPage }) => {
-    loginPage.setEmail(testDataPage.login.emptyemail);
-    loginPage.setPassword(testDataPage.login.password);
-    loginPage.clickOnBtnSignIn();
-    I.see(3);
-});
-Scenario('@verify login By Mandatory Validation For Password', ({ I, loginPage, testDataPage, expectedAssertionsPage }) => {
-    loginPage.setEmail(testDataPage.login.email);
-    loginPage.setPassword(testDataPage.login.emptypaswd);
-    loginPage.clickOnBtnSignIn();
-    I.see(3);
-});
-Scenario('@verify writesonic Login Functionality', ({ I, loginPage, testDataPage, expectedAssertionsPage }) => {
-    loginPage.setEmail(testDataPage.login.email);
-    loginPage.setPassword(testDataPage.login.password);
-    loginPage.clickOnBtnSignIn();
-    I.wait(5);
+    loginPage.clickOnGoogle();
+    loginPage.setGmail(testDataPage.login.email);
+    loginPage.setGmailPassword(testDataPage.login.password);
+    loginPage.clickOnNextButton();
     I.see(expectedAssertionsPage.login.myAccount);
 
 });

@@ -27,6 +27,29 @@ class loginPage {
   clickOnBtnSignIn() {
     I.click(this.btnLogin);
   };
+  clickOnGoogle(){
+    I.see(expectedAssertionsPage.login.loginPage);
+    I.switchTo(this.iframeGoogle);
+    I.waitForVisible(this.btnGoogle, 20);
+    I.click(this.btnGoogle);
+  };
+  setGmail(email){
+    I.switchToNextTab();
+    I.wait(2);
+    I.see(expectedAssertionsPage.login.googleLogin);
+    I.fillField(this.txtGmail, email);
+    I.click(this.btnNext);
+  };
+  clickOnNextButton(){
+    I.click(this.btnNext);
+    I.switchToPreviousTab();
+    I.wait(20);
+  };
+  setGmailPassword(password){
+    I.waitForVisible(this.txtGmailPassword, 10);
+    I.see(testDataPage.login.email);
+    I.fillField(this.txtGmailPassword, password)
+  };
   loginUserforallfeatures(email, password) {
     I.see(expectedAssertionsPage.login.loginPage);
     I.switchTo(this.iframeGoogle);
@@ -42,8 +65,7 @@ class loginPage {
     I.fillField(this.txtGmailPassword, password)
     I.click(this.btnNext);
     I.switchToPreviousTab();
-    //I.waitForVisible(expectedAssertionsPage.login.myAccount,30);
-    //I.see(expectedAssertionsPage.login.myAccount);
+    
   }
 }
 module.exports = new loginPage();
