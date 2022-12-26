@@ -37,6 +37,7 @@ exports.config = {
   name: 'writesonic_POM',
   plugins: {
     allure: {
+      outputDir: "../allure-results",
       enable: true,
     }
   }
