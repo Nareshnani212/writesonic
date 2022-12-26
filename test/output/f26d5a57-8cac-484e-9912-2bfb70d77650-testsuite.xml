@@ -1,0 +1,134 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671883945586' stop='1671883989038'>
+    <name>logintest of writesonic:</name>
+    <title>logintest of writesonic:</title>
+    <test-cases>
+        <test-case start='1671883946671' status='passed' stop='1671883988954'>
+            <name>@verify Google Account login Feature</name>
+            <title>@verify Google Account login Feature</title>
+            <labels>
+                <label name='tag' value='@verify'/>
+                <label name='severity' value='Critical'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1671883947062' status='passed' stop='1671883949894'>
+                    <name>I am on page "https://staging.writesonic.com/login"</name>
+                    <title>I am on page "https://staging.writesonic.com/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671883949896' status='passed' stop='1671883988914'>
+                    <name>loginPage: loginWithGoogleAccount "arun.akenapelli@b2btesters.com", "9849261360"</name>
+                    <title>loginPage: loginWithGoogleAccount "arun.akenapelli@b2btesters.com", "9849261360"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671883949896' status='passed' stop='1671883949908'>
+                            <name>I see "Welcome back"</name>
+                            <title>I see "Welcome back"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671883949908' status='passed' stop='1671883949922'>
+                            <name>I switch to "//iframe[@title='Sign in with Google Button']"</name>
+                            <title>I switch to "//iframe[@title='Sign in with Google Button']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671883949922' status='passed' stop='1671883949951'>
+                            <name>I wait for visible {"xpath":"//div[@class='nsm7Bb-HzV7m-LgbsSe-bN97Pc-sM5MNb ']/span[@class='nsm7Bb-HzV7m-LgbsSe-BPrWId']"}, 20</name>
+                            <title>I wait for visible {"xpath":"//div[@class='nsm7Bb-HzV7m-LgbsSe-bN97Pc-sM5MNb ']/span[@class='nsm7Bb-HzV7m-LgbsSe-BPrWId']"}, 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671883949952' status='passed' stop='1671883950181'>
+                            <name>I click {"xpath":"//div[@class='nsm7Bb-HzV7m-LgbsSe-bN97Pc-sM5MNb ']/span[@class='nsm7Bb-HzV7m-LgbsSe-BPrWId']"}</name>
+                            <title>I click {"xpath":"//div[@class='nsm7Bb-HzV7m-LgbsSe-bN97Pc-sM5MNb ']/span[@class='nsm7Bb-HzV7m-LgbsSe-BPrWId']"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671883950181' status='passed' stop='1671883950749'>
+                            <name>I switch to next tab </name>
+                            <title>I switch to next tab </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671883950749' status='passed' stop='1671883953759'>
+                            <name>I wait 3</name>
+                            <title>I wait 3</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671883953759' status='passed' stop='1671883953769'>
+                            <name>I see "Use your Google Account"</name>
+                            <title>I see "Use your Google Account"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671883953769' status='passed' stop='1671883954584'>
+                            <name>I fill field "//input[@type='email']", "arun.akenapelli@b2btesters.com"</name>
+                            <title>I fill field "//input[@type='email']", "arun.akenapelli@b2btesters.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671883954585' status='passed' stop='1671883954892'>
+                            <name>I click "//span[text()='Next']"</name>
+                            <title>I click "//span[text()='Next']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671883954893' status='passed' stop='1671883956020'>
+                            <name>I see "arun.akenapelli@b2btesters.com"</name>
+                            <title>I see "arun.akenapelli@b2btesters.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671883956020' status='passed' stop='1671883956034'>
+                            <name>I wait for visible "//input[@name='Passwd']", 10</name>
+                            <title>I wait for visible "//input[@name='Passwd']", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671883956034' status='passed' stop='1671883956510'>
+                            <name>I fill field "//input[@name='Passwd']", "9849261360"</name>
+                            <title>I fill field "//input[@name='Passwd']", "9849261360"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671883956510' status='passed' stop='1671883956713'>
+                            <name>I click "//span[text()='Next']"</name>
+                            <title>I click "//span[text()='Next']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671883956713' status='passed' stop='1671883956823'>
+                            <name>I switch to previous tab </name>
+                            <title>I switch to previous tab </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671883956824' status='passed' stop='1671883961830'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671883961830' status='passed' stop='1671883988914'>
+                            <name>I wait for visible "//h1[text()='Library']", 100</name>
+                            <title>I wait for visible "//h1[text()='Library']", 100</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671883988914' status='passed' stop='1671883988954'>
+                    <name>I see "Library"</name>
+                    <title>I see "Library"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

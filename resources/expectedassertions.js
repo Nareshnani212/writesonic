@@ -16,6 +16,7 @@ module.exports = {
         invalidemailId: "There doesn't seem to be an existing account with this email. Please use the sign up page to register for a new account",
         manndatorymessageemailfield: "Please fill out this field.",
         googleLogin: "Use your Google Account",
+        invalidcode: "Invalid Code",
     },
 
     AIArticle: {
@@ -34,9 +35,24 @@ module.exports = {
         gettxtEnsurethisvaluehasatleast2charactersensurethisvaluehasatleast2characters: "Ensure this value has at least 2 characters ensure this value has at least 2 characters",
         gettxttexthasbeencopiedtoclipboard: "Text has been copied to clipboard.",
         gettextCopyhasbeendeletedsuccessfully: "Copy has been deleted successfully.",
-        gettxtCopyhasbeeneditedsuccessfully:"Copy has been edited successfully!",
+        gettxtCopyhasbeeneditedsuccessfully: "Copy has been edited successfully!",
         gettxtaiarticle4o: "AI Article Writer 4.0",
         gettxtpleaseinsertkeywords: "Please insert keywords",
+        gettxtnextbtn: "Next",
 
     },
+    ChatSonic: {
+        gettextchatsonic: "Chatsonic",
+        gettxtHereswhatsnew: "Here's what's new",
+        gettxtresetchat: "Reset Chat",
+        gettxtfromyoutube: "Introducing Chatsonic - ChatGPT with Super Powers",
+        gettxtstartrecording: "Start Recording",
+        gettxtstoprecording: "Stop recording",
+        gettxtsettings: "Settings",
+        gettxtmessagebeensuccessfully: "Message has been edited successfully!",
+        gettxttexthasbeencopiedtoclipboard: "Text has been copied to clipboard."
+    },
+    SonicEditor:{
+       gettxtgeneral: "General",
+    }
 }

@@ -1,0 +1,507 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671884333951' stop='1671884398843'>
+    <name>ChatSonic:</name>
+    <title>ChatSonic:</title>
+    <test-cases>
+        <test-case start='1671884334687' status='passed' stop='1671884398758'>
+            <name>@Verify ChatSonic Feature</name>
+            <title>@Verify ChatSonic Feature</title>
+            <labels>
+                <label name='tag' value='@Verify'/>
+                <label name='epic' value='General Writing'/>
+                <label name='feature' value='ChatSonic'/>
+                <label name='severity' value='CRITICAL'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1671884335011' status='passed' stop='1671884339507'>
+                    <name>I am on page "https://staging.writesonic.com/login"</name>
+                    <title>I am on page "https://staging.writesonic.com/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884339507' status='passed' stop='1671884370602'>
+                    <name>loginPage: loginWithGoogleAccount "arun.akenapelli@b2btesters.com", "9849261360"</name>
+                    <title>loginPage: loginWithGoogleAccount "arun.akenapelli@b2btesters.com", "9849261360"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884339507' status='passed' stop='1671884339521'>
+                            <name>I see "Welcome back"</name>
+                            <title>I see "Welcome back"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884339521' status='passed' stop='1671884339536'>
+                            <name>I switch to "//iframe[@title='Sign in with Google Button']"</name>
+                            <title>I switch to "//iframe[@title='Sign in with Google Button']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884339536' status='passed' stop='1671884339569'>
+                            <name>I wait for visible {"xpath":"//div[@class='nsm7Bb-HzV7m-LgbsSe-bN97Pc-sM5MNb ']/span[@class='nsm7Bb-HzV7m-LgbsSe-BPrWId']"}, 20</name>
+                            <title>I wait for visible {"xpath":"//div[@class='nsm7Bb-HzV7m-LgbsSe-bN97Pc-sM5MNb ']/span[@class='nsm7Bb-HzV7m-LgbsSe-BPrWId']"}, 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884339569' status='passed' stop='1671884339799'>
+                            <name>I click {"xpath":"//div[@class='nsm7Bb-HzV7m-LgbsSe-bN97Pc-sM5MNb ']/span[@class='nsm7Bb-HzV7m-LgbsSe-BPrWId']"}</name>
+                            <title>I click {"xpath":"//div[@class='nsm7Bb-HzV7m-LgbsSe-bN97Pc-sM5MNb ']/span[@class='nsm7Bb-HzV7m-LgbsSe-BPrWId']"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884339800' status='passed' stop='1671884340359'>
+                            <name>I switch to next tab </name>
+                            <title>I switch to next tab </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884340360' status='passed' stop='1671884343370'>
+                            <name>I wait 3</name>
+                            <title>I wait 3</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884343370' status='passed' stop='1671884343380'>
+                            <name>I see "Use your Google Account"</name>
+                            <title>I see "Use your Google Account"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884343380' status='passed' stop='1671884344157'>
+                            <name>I fill field "//input[@type='email']", "arun.akenapelli@b2btesters.com"</name>
+                            <title>I fill field "//input[@type='email']", "arun.akenapelli@b2btesters.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884344157' status='passed' stop='1671884344455'>
+                            <name>I click "//span[text()='Next']"</name>
+                            <title>I click "//span[text()='Next']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884344455' status='passed' stop='1671884345583'>
+                            <name>I see "arun.akenapelli@b2btesters.com"</name>
+                            <title>I see "arun.akenapelli@b2btesters.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884345583' status='passed' stop='1671884345594'>
+                            <name>I wait for visible "//input[@name='Passwd']", 10</name>
+                            <title>I wait for visible "//input[@name='Passwd']", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884345594' status='passed' stop='1671884346022'>
+                            <name>I fill field "//input[@name='Passwd']", "9849261360"</name>
+                            <title>I fill field "//input[@name='Passwd']", "9849261360"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884346022' status='passed' stop='1671884346367'>
+                            <name>I click "//span[text()='Next']"</name>
+                            <title>I click "//span[text()='Next']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884346367' status='passed' stop='1671884346474'>
+                            <name>I switch to previous tab </name>
+                            <title>I switch to previous tab </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884346474' status='passed' stop='1671884351476'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884351476' status='passed' stop='1671884370585'>
+                            <name>I wait for visible "//h1[text()='Library']", 100</name>
+                            <title>I wait for visible "//h1[text()='Library']", 100</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884370602' status='passed' stop='1671884370898'>
+                    <name>ChatSonicPage: clickOnChatSonicTab </name>
+                    <title>ChatSonicPage: clickOnChatSonicTab </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884370602' status='passed' stop='1671884370641'>
+                            <name>I wait for visible "//a[text()='Chatsonic']", 20</name>
+                            <title>I wait for visible "//a[text()='Chatsonic']", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884370641' status='passed' stop='1671884370898'>
+                            <name>I click "//a[text()='Chatsonic']"</name>
+                            <title>I click "//a[text()='Chatsonic']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884370898' status='passed' stop='1671884370915'>
+                    <name>I see "Chatsonic"</name>
+                    <title>I see "Chatsonic"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884370915' status='passed' stop='1671884372035'>
+                    <name>I see "Here's what's new"</name>
+                    <title>I see "Here's what's new"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884372035' status='passed' stop='1671884372383'>
+                    <name>ChatSonicPage: clickOnLetsGoButton </name>
+                    <title>ChatSonicPage: clickOnLetsGoButton </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884372035' status='passed' stop='1671884372383'>
+                            <name>I click "//div[@class='mt-2 block']/following-sibling::button"</name>
+                            <title>I click "//div[@class='mt-2 block']/following-sibling::button"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884372383' status='passed' stop='1671884378301'>
+                    <name>ChatSonicPage: clickOnWatchDemo </name>
+                    <title>ChatSonicPage: clickOnWatchDemo </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884372383' status='passed' stop='1671884372737'>
+                            <name>I click "//span[text()='Watch a demo']"</name>
+                            <title>I click "//span[text()='Watch a demo']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884372737' status='passed' stop='1671884373299'>
+                            <name>I switch to next tab </name>
+                            <title>I switch to next tab </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884373300' status='passed' stop='1671884378300'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884378301' status='passed' stop='1671884378340'>
+                    <name>I see "Introducing Chatsonic - ChatGPT with Super Powers"</name>
+                    <title>I see "Introducing Chatsonic - ChatGPT with Super Powers"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884378340' status='passed' stop='1671884378642'>
+                    <name>I close current tab </name>
+                    <title>I close current tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884378642' status='passed' stop='1671884379542'>
+                    <name>ChatSonicPage: setChatSonicText "who is the CEO of b2btesters"</name>
+                    <title>ChatSonicPage: setChatSonicText "who is the CEO of b2btesters"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884378642' status='passed' stop='1671884378670'>
+                            <name>I wait for visible "//div[@class='flex-1']/textarea", 20</name>
+                            <title>I wait for visible "//div[@class='flex-1']/textarea", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884378670' status='passed' stop='1671884379542'>
+                            <name>I fill field "//div[@class='flex-1']/textarea", "who is the CEO of b2btesters"</name>
+                            <title>I fill field "//div[@class='flex-1']/textarea", "who is the CEO of b2btesters"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884379542' status='passed' stop='1671884379744'>
+                    <name>ChatSonicPage: clickOnSendButton </name>
+                    <title>ChatSonicPage: clickOnSendButton </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884379542' status='passed' stop='1671884379725'>
+                            <name>I click "//div[@class='absolute right-2 bottom-2 mt-2 cursor-pointer']"</name>
+                            <title>I click "//div[@class='absolute right-2 bottom-2 mt-2 cursor-pointer']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884379725' status='passed' stop='1671884379744'>
+                            <name>I wait for visible "//div[@class='absolute right-2 bottom-2 mt-2 cursor-pointer']", 50</name>
+                            <title>I wait for visible "//div[@class='absolute right-2 bottom-2 mt-2 cursor-pointer']", 50</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884379744' status='passed' stop='1671884379753'>
+                    <name>I see "Reset Chat"</name>
+                    <title>I see "Reset Chat"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884379753' status='passed' stop='1671884380175'>
+                    <name>ChatSonicPage: clickOnIncludelatestGoogledataToggleButton </name>
+                    <title>ChatSonicPage: clickOnIncludelatestGoogledataToggleButton </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884379753' status='passed' stop='1671884380175'>
+                            <name>I click "//label[@class='inline-flex relative cursor-pointer']"</name>
+                            <title>I click "//label[@class='inline-flex relative cursor-pointer']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884380175' status='passed' stop='1671884380839'>
+                    <name>ChatSonicPage: setChatSonicText "who is the CEO of b2btesters"</name>
+                    <title>ChatSonicPage: setChatSonicText "who is the CEO of b2btesters"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884380175' status='passed' stop='1671884380187'>
+                            <name>I wait for visible "//div[@class='flex-1']/textarea", 20</name>
+                            <title>I wait for visible "//div[@class='flex-1']/textarea", 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884380187' status='passed' stop='1671884380839'>
+                            <name>I fill field "//div[@class='flex-1']/textarea", "who is the CEO of b2btesters"</name>
+                            <title>I fill field "//div[@class='flex-1']/textarea", "who is the CEO of b2btesters"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884380839' status='passed' stop='1671884381011'>
+                    <name>ChatSonicPage: clickOnSendButton </name>
+                    <title>ChatSonicPage: clickOnSendButton </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884380839' status='passed' stop='1671884380993'>
+                            <name>I click "//div[@class='absolute right-2 bottom-2 mt-2 cursor-pointer']"</name>
+                            <title>I click "//div[@class='absolute right-2 bottom-2 mt-2 cursor-pointer']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884380993' status='passed' stop='1671884381011'>
+                            <name>I wait for visible "//div[@class='absolute right-2 bottom-2 mt-2 cursor-pointer']", 50</name>
+                            <title>I wait for visible "//div[@class='absolute right-2 bottom-2 mt-2 cursor-pointer']", 50</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884381011' status='passed' stop='1671884396742'>
+                    <name>ChatSonicPage: clickOnRecordingButton </name>
+                    <title>ChatSonicPage: clickOnRecordingButton </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884381011' status='passed' stop='1671884381133'>
+                            <name>I move cursor to "//button[@class='ml-2 mt-2']"</name>
+                            <title>I move cursor to "//button[@class='ml-2 mt-2']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884381133' status='passed' stop='1671884392183'>
+                            <name>I click "//button[@class='ml-2 mt-2']"</name>
+                            <title>I click "//button[@class='ml-2 mt-2']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884392183' status='passed' stop='1671884392304'>
+                            <name>I move cursor to "//button[@class='ml-2 mt-2']"</name>
+                            <title>I move cursor to "//button[@class='ml-2 mt-2']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884392304' status='passed' stop='1671884394311'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884394311' status='passed' stop='1671884394430'>
+                            <name>I move cursor to "//button[@class='ml-2 mt-2']"</name>
+                            <title>I move cursor to "//button[@class='ml-2 mt-2']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884394430' status='passed' stop='1671884394592'>
+                            <name>I click "//button[@class='ml-2 mt-2']"</name>
+                            <title>I click "//button[@class='ml-2 mt-2']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884394592' status='passed' stop='1671884394728'>
+                            <name>I move cursor to "//button[@class='ml-2 mt-2']"</name>
+                            <title>I move cursor to "//button[@class='ml-2 mt-2']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884394728' status='passed' stop='1671884396741'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884396742' status='passed' stop='1671884397059'>
+                    <name>ChatSonicPage: clickOnTextToSpeech </name>
+                    <title>ChatSonicPage: clickOnTextToSpeech </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884396742' status='passed' stop='1671884396861'>
+                            <name>I move cursor to "//div[@class='flex items-center justify-center']//button[@type='button']//*[name()='svg']"</name>
+                            <title>I move cursor to "//div[@class='flex items-center justify-center']//button[@type='button']//*[name()='svg']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884396862' status='passed' stop='1671884397059'>
+                            <name>I click "//div[@class='flex items-center justify-center']//button[@type='button']//*[name()='svg']"</name>
+                            <title>I click "//div[@class='flex items-center justify-center']//button[@type='button']//*[name()='svg']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884397059' status='passed' stop='1671884397421'>
+                    <name>ChatSonicPage: clickOnEditIcon </name>
+                    <title>ChatSonicPage: clickOnEditIcon </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884397059' status='passed' stop='1671884397209'>
+                            <name>I move cursor to "//button[@aria-label='Download']//following-sibling::button[@aria-label='Edit']"</name>
+                            <title>I move cursor to "//button[@aria-label='Download']//following-sibling::button[@aria-label='Edit']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884397209' status='passed' stop='1671884397421'>
+                            <name>I click "//button[@aria-label='Download']//following-sibling::button[@aria-label='Edit']"</name>
+                            <title>I click "//button[@aria-label='Download']//following-sibling::button[@aria-label='Edit']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884397421' status='passed' stop='1671884397611'>
+                    <name>ChatSonicPage: clickOnSaveButton </name>
+                    <title>ChatSonicPage: clickOnSaveButton </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884397421' status='passed' stop='1671884397433'>
+                            <name>I wait for visible "//div[text()='Save']", 10</name>
+                            <title>I wait for visible "//div[text()='Save']", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884397433' status='passed' stop='1671884397611'>
+                            <name>I click "//div[text()='Save']"</name>
+                            <title>I click "//div[text()='Save']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884397611' status='passed' stop='1671884397620'>
+                    <name>I see "Message has been edited successfully!"</name>
+                    <title>I see "Message has been edited successfully!"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884397620' status='passed' stop='1671884397941'>
+                    <name>ChatSonicPage: clickOnCopyIcon </name>
+                    <title>ChatSonicPage: clickOnCopyIcon </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884397620' status='passed' stop='1671884397753'>
+                            <name>I move cursor to "//button[@aria-label='Copy to clipboard']//*[name()='svg']"</name>
+                            <title>I move cursor to "//button[@aria-label='Copy to clipboard']//*[name()='svg']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884397753' status='passed' stop='1671884397941'>
+                            <name>I click "//button[@aria-label='Copy to clipboard']//*[name()='svg']"</name>
+                            <title>I click "//button[@aria-label='Copy to clipboard']//*[name()='svg']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884397941' status='passed' stop='1671884397952'>
+                    <name>I see "Text has been copied to clipboard."</name>
+                    <title>I see "Text has been copied to clipboard."</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884397952' status='passed' stop='1671884398268'>
+                    <name>ChatSonicPage: clickOnLikeIcon </name>
+                    <title>ChatSonicPage: clickOnLikeIcon </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884397952' status='passed' stop='1671884398080'>
+                            <name>I move cursor to "//div[contains(@class,'flex gap-1')]//button[1]"</name>
+                            <title>I move cursor to "//div[contains(@class,'flex gap-1')]//button[1]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884398080' status='passed' stop='1671884398267'>
+                            <name>I click "//div[contains(@class,'flex gap-1')]//button[1]"</name>
+                            <title>I click "//div[contains(@class,'flex gap-1')]//button[1]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884398268' status='passed' stop='1671884398575'>
+                    <name>ChatSonicPage: clickOnUnLikeIcon </name>
+                    <title>ChatSonicPage: clickOnUnLikeIcon </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884398268' status='passed' stop='1671884398406'>
+                            <name>I move cursor to "//div[contains(@class,'flex gap-1')]//button[2]"</name>
+                            <title>I move cursor to "//div[contains(@class,'flex gap-1')]//button[2]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884398406' status='passed' stop='1671884398575'>
+                            <name>I click "//div[contains(@class,'flex gap-1')]//button[2]"</name>
+                            <title>I click "//div[contains(@class,'flex gap-1')]//button[2]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884398575' status='passed' stop='1671884398745'>
+                    <name>ChatSonicPage: clickOnResetChat </name>
+                    <title>ChatSonicPage: clickOnResetChat </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884398575' status='passed' stop='1671884398745'>
+                            <name>I click "//div[text()='Reset Chat']"</name>
+                            <title>I click "//div[text()='Reset Chat']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884398745' status='passed' stop='1671884398757'>
+                    <name>I see "Chatsonic"</name>
+                    <title>I see "Chatsonic"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Verify ChatSonic Feature</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

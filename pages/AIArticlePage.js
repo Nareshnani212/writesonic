@@ -17,6 +17,7 @@ class AIArticlePage {
     btnSave = "//div[text()='Save']";
     rdoOutline = "//span[@class='h-5 w-5 mt-0.5 cursor-pointer rounded-full flex items-center justify-center border-gray-300 border']";
     tabGetAnIntro = "//p[text()='GET AN INTRO']";
+    btnSelectindividualoutlinesToggle = "//span[text()='Select individual outlines']";
 
     //Methods-------------------------------------------------------
     clickOnGetAnIntroTab() {
@@ -26,6 +27,7 @@ class AIArticlePage {
         I.fillField(this.lblOutput, outputvalue);
     };
     setTopicField(topic) {
+        I.wait(5);
         I.fillField(this.lblTopic, topic);
     };
     clickOnGetAnArticleTab() {
@@ -44,7 +46,7 @@ class AIArticlePage {
         I.click(this.tabGetIdeas);
     };
     clickOnSaveBtn() {
-        I.waitForVisible(this.btnSaveIcon, 100);
+        I.waitForVisible(this.btnSaveIcon, 180);
         I.click(this.btnSaveIcon);
     };
     clickOnCopyBtn() {
@@ -70,5 +72,9 @@ class AIArticlePage {
         I.waitForVisible(this.rdoOutline, 10);
         I.click(this.rdoOutline);
     };
+    clickOnSelectindividualoutlinesToggleButton(){
+        I.waitForVisible(this.btnSelectindividualoutlinesToggle, 30);
+        I.click(this.btnSelectindividualoutlinesToggle);
+    }
 }
 module.exports = new AIArticlePage();

@@ -12,14 +12,15 @@ setCommonPlugins();
 /** @type {CodeceptJS.MainConfig} */
 exports.config = {
   tests: './*_test.js',
-  output: '../output',
+  output: './allure-report',
   helpers: {
     Playwright: {
       url: 'https://www.google.com/',
       show: true,
       browser: 'chromium',
-    
-
+       video: 'keepVideoForPassedTests',
+       video: 'enables video recording for failed tests',
+       video: 'recordVideo',
     }
   },
   include: {
@@ -29,12 +30,14 @@ exports.config = {
     "expectedAssertionsPage": "../resources/expectedassertions.js",
     "article3OPage": "../pages/Article3.OPage.js",
     "article4OPage": "../pages/Article4.OPage.js",
-    "AIArticlePage": "../pages/AIArticlePage.js"
+    "AIArticlePage": "../pages/AIArticlePage.js",
+    "ChatSonicPage": "../pages/ChatSonicPage.js",
+  
   },
   name: 'writesonic_POM',
   plugins: {
     allure: {
-      enable: true
+      enable: true,
     }
   }
 }

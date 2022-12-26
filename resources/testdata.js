@@ -16,9 +16,17 @@ module.exports = {
     password: '9849261360',
     invalidpassword: 'QWETT',
     invalidemail: 'bsxbj@uibcdn',
+    invalidcode:'736',
     emptyemail: "",
     emptypaswd: ""
   },
+  language: 'English',
+  outputs: '2',
+  excited:'Excited',
+  economy: 'Economy',
+  good: 'Good',
+  average: 'Average',
+  premium: 'Premium',
   AIArticle: {
     topic: 'Beauty of nature',
     qualitytype: 'Economy',
@@ -33,5 +41,11 @@ module.exports = {
     firstPerson:'First Person',
     secondperson:'Second Person',
     thirdperson:'Third Person'
-  }
+  },
+  ChatSonic:{
+    chatsonictext: 'who is the CEO of b2btesters',
+  },
+  SonicEditor:{
+   SonicEditortext: 'Best Batsmen in India',
+  },
 }

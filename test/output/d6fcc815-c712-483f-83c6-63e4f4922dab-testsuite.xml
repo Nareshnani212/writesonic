@@ -1,0 +1,1200 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671883992062' stop='1671884125655'>
+    <name>Article3.OTest.js:</name>
+    <title>Article3.OTest.js:</title>
+    <test-cases>
+        <test-case start='1671883992634' status='passed' stop='1671884031388'>
+            <name>@ mandatory validation for all input fields</name>
+            <title>@ mandatory validation for all input fields</title>
+            <labels>
+                <label name='epic' value='Article And Blogs'/>
+                <label name='feature' value='AI Article Writer 3.0'/>
+                <label name='severity' value='MAJOR'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1671883992930' status='passed' stop='1671883997516'>
+                    <name>I am on page "https://staging.writesonic.com/login"</name>
+                    <title>I am on page "https://staging.writesonic.com/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671883997517' status='passed' stop='1671884020882'>
+                    <name>loginPage: loginWithGoogleAccount "arun.akenapelli@b2btesters.com", "9849261360"</name>
+                    <title>loginPage: loginWithGoogleAccount "arun.akenapelli@b2btesters.com", "9849261360"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671883997517' status='passed' stop='1671883997531'>
+                            <name>I see "Welcome back"</name>
+                            <title>I see "Welcome back"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671883997531' status='passed' stop='1671883997549'>
+                            <name>I switch to "//iframe[@title='Sign in with Google Button']"</name>
+                            <title>I switch to "//iframe[@title='Sign in with Google Button']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671883997549' status='passed' stop='1671883997581'>
+                            <name>I wait for visible {"xpath":"//div[@class='nsm7Bb-HzV7m-LgbsSe-bN97Pc-sM5MNb ']/span[@class='nsm7Bb-HzV7m-LgbsSe-BPrWId']"}, 20</name>
+                            <title>I wait for visible {"xpath":"//div[@class='nsm7Bb-HzV7m-LgbsSe-bN97Pc-sM5MNb ']/span[@class='nsm7Bb-HzV7m-LgbsSe-BPrWId']"}, 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671883997582' status='passed' stop='1671883997817'>
+                            <name>I click {"xpath":"//div[@class='nsm7Bb-HzV7m-LgbsSe-bN97Pc-sM5MNb ']/span[@class='nsm7Bb-HzV7m-LgbsSe-BPrWId']"}</name>
+                            <title>I click {"xpath":"//div[@class='nsm7Bb-HzV7m-LgbsSe-bN97Pc-sM5MNb ']/span[@class='nsm7Bb-HzV7m-LgbsSe-BPrWId']"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671883997817' status='passed' stop='1671883998390'>
+                            <name>I switch to next tab </name>
+                            <title>I switch to next tab </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671883998391' status='passed' stop='1671884001399'>
+                            <name>I wait 3</name>
+                            <title>I wait 3</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884001400' status='passed' stop='1671884001412'>
+                            <name>I see "Use your Google Account"</name>
+                            <title>I see "Use your Google Account"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884001412' status='passed' stop='1671884002100'>
+                            <name>I fill field "//input[@type='email']", "arun.akenapelli@b2btesters.com"</name>
+                            <title>I fill field "//input[@type='email']", "arun.akenapelli@b2btesters.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884002101' status='passed' stop='1671884002380'>
+                            <name>I click "//span[text()='Next']"</name>
+                            <title>I click "//span[text()='Next']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884002380' status='passed' stop='1671884003473'>
+                            <name>I see "arun.akenapelli@b2btesters.com"</name>
+                            <title>I see "arun.akenapelli@b2btesters.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884003473' status='passed' stop='1671884003484'>
+                            <name>I wait for visible "//input[@name='Passwd']", 10</name>
+                            <title>I wait for visible "//input[@name='Passwd']", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884003484' status='passed' stop='1671884003866'>
+                            <name>I fill field "//input[@name='Passwd']", "9849261360"</name>
+                            <title>I fill field "//input[@name='Passwd']", "9849261360"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884003866' status='passed' stop='1671884004175'>
+                            <name>I click "//span[text()='Next']"</name>
+                            <title>I click "//span[text()='Next']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884004175' status='passed' stop='1671884004282'>
+                            <name>I switch to previous tab </name>
+                            <title>I switch to previous tab </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884004282' status='passed' stop='1671884009285'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884009285' status='passed' stop='1671884020873'>
+                            <name>I wait for visible "//h1[text()='Library']", 100</name>
+                            <title>I wait for visible "//h1[text()='Library']", 100</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884020882' status='passed' stop='1671884021575'>
+                    <name>article3OPage: clickOnArticle3Ofeature </name>
+                    <title>article3OPage: clickOnArticle3Ofeature </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884020882' status='passed' stop='1671884020919'>
+                            <name>I wait for visible "//a[text()='Article And Blogs']", 50</name>
+                            <title>I wait for visible "//a[text()='Article And Blogs']", 50</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884020919' status='passed' stop='1671884021186'>
+                            <name>I click "//a[text()='Article And Blogs']"</name>
+                            <title>I click "//a[text()='Article And Blogs']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884021186' status='passed' stop='1671884021575'>
+                            <name>I click "//p[text()='AI Article Writer 3.0']"</name>
+                            <title>I click "//p[text()='AI Article Writer 3.0']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884021575' status='passed' stop='1671884021585'>
+                    <name>I see "AI Article Writer 3.0"</name>
+                    <title>I see "AI Article Writer 3.0"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884021585' status='passed' stop='1671884022727'>
+                    <name>AIArticlePage: clickOnGenerateButton </name>
+                    <title>AIArticlePage: clickOnGenerateButton </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884021585' status='passed' stop='1671884022727'>
+                            <name>I click "//p[text()='Generate']"</name>
+                            <title>I click "//p[text()='Generate']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884022727' status='passed' stop='1671884023014'>
+                    <name>I see "Please insert a topic"</name>
+                    <title>I see "Please insert a topic"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884023014' status='passed' stop='1671884023195'>
+                    <name>AIArticlePage: clickOnGetAnIntroTab </name>
+                    <title>AIArticlePage: clickOnGetAnIntroTab </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884023014' status='passed' stop='1671884023195'>
+                            <name>I click "//p[text()='GET AN INTRO']"</name>
+                            <title>I click "//p[text()='GET AN INTRO']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884023195' status='passed' stop='1671884023381'>
+                    <name>AIArticlePage: clickOnGenerateButton </name>
+                    <title>AIArticlePage: clickOnGenerateButton </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884023195' status='passed' stop='1671884023381'>
+                            <name>I click "//p[text()='Generate']"</name>
+                            <title>I click "//p[text()='Generate']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884023381' status='passed' stop='1671884023391'>
+                    <name>I see "Please insert a topic"</name>
+                    <title>I see "Please insert a topic"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884023391' status='passed' stop='1671884023582'>
+                    <name>AIArticlePage: clickOnGetAnOutlineTab </name>
+                    <title>AIArticlePage: clickOnGetAnOutlineTab </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884023391' status='passed' stop='1671884023581'>
+                            <name>I click "//p[text()='GET AN OUTLINE']"</name>
+                            <title>I click "//p[text()='GET AN OUTLINE']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884023582' status='passed' stop='1671884023782'>
+                    <name>AIArticlePage: clickOnGenerateButton </name>
+                    <title>AIArticlePage: clickOnGenerateButton </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884023582' status='passed' stop='1671884023782'>
+                            <name>I click "//p[text()='Generate']"</name>
+                            <title>I click "//p[text()='Generate']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884023782' status='passed' stop='1671884023804'>
+                    <name>I see "Please insert a title"</name>
+                    <title>I see "Please insert a title"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884023805' status='passed' stop='1671884023815'>
+                    <name>I see "Please insert a intro"</name>
+                    <title>I see "Please insert a intro"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884023815' status='passed' stop='1671884024315'>
+                    <name>I see "Ensure this value has at least 2 characters ensure this value has at least 2 characters"</name>
+                    <title>I see "Ensure this value has at least 2 characters ensure this value has at least 2 characters"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884024315' status='passed' stop='1671884031173'>
+                    <name>AIArticlePage: clickOnGetAnArticleTab </name>
+                    <title>AIArticlePage: clickOnGetAnArticleTab </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884024315' status='passed' stop='1671884031173'>
+                            <name>I click "//p[text()='GET AN ARTICLE']"</name>
+                            <title>I click "//p[text()='GET AN ARTICLE']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884031173' status='passed' stop='1671884031358'>
+                    <name>AIArticlePage: clickOnGenerateButton </name>
+                    <title>AIArticlePage: clickOnGenerateButton </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884031173' status='passed' stop='1671884031358'>
+                            <name>I click "//p[text()='Generate']"</name>
+                            <title>I click "//p[text()='Generate']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884031358' status='passed' stop='1671884031369'>
+                    <name>I see "Please insert a title"</name>
+                    <title>I see "Please insert a title"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884031369' status='passed' stop='1671884031376'>
+                    <name>I see "Please insert an intro"</name>
+                    <title>I see "Please insert an intro"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884031376' status='passed' stop='1671884031388'>
+                    <name>I see "Please add at least 4 outlines"</name>
+                    <title>I see "Please add at least 4 outlines"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>mandatory validation for all input fields</description>
+        </test-case>
+        <test-case start='1671884031457' status='passed' stop='1671884125559'>
+            <name>@Verify Article 3.O feature</name>
+            <title>@Verify Article 3.O feature</title>
+            <labels>
+                <label name='tag' value='@Verify'/>
+                <label name='epic' value='Article And Blogs'/>
+                <label name='feature' value='AI Article Writer 3.0'/>
+                <label name='severity' value='CRITICAL'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1671884031653' status='passed' stop='1671884032669'>
+                    <name>I am on page "https://staging.writesonic.com/login"</name>
+                    <title>I am on page "https://staging.writesonic.com/login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884032669' status='passed' stop='1671884062761'>
+                    <name>loginPage: loginWithGoogleAccount "arun.akenapelli@b2btesters.com", "9849261360"</name>
+                    <title>loginPage: loginWithGoogleAccount "arun.akenapelli@b2btesters.com", "9849261360"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884032669' status='passed' stop='1671884032678'>
+                            <name>I see "Welcome back"</name>
+                            <title>I see "Welcome back"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884032678' status='passed' stop='1671884033237'>
+                            <name>I switch to "//iframe[@title='Sign in with Google Button']"</name>
+                            <title>I switch to "//iframe[@title='Sign in with Google Button']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884033238' status='passed' stop='1671884033736'>
+                            <name>I wait for visible {"xpath":"//div[@class='nsm7Bb-HzV7m-LgbsSe-bN97Pc-sM5MNb ']/span[@class='nsm7Bb-HzV7m-LgbsSe-BPrWId']"}, 20</name>
+                            <title>I wait for visible {"xpath":"//div[@class='nsm7Bb-HzV7m-LgbsSe-bN97Pc-sM5MNb ']/span[@class='nsm7Bb-HzV7m-LgbsSe-BPrWId']"}, 20</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884033736' status='passed' stop='1671884034001'>
+                            <name>I click {"xpath":"//div[@class='nsm7Bb-HzV7m-LgbsSe-bN97Pc-sM5MNb ']/span[@class='nsm7Bb-HzV7m-LgbsSe-BPrWId']"}</name>
+                            <title>I click {"xpath":"//div[@class='nsm7Bb-HzV7m-LgbsSe-bN97Pc-sM5MNb ']/span[@class='nsm7Bb-HzV7m-LgbsSe-BPrWId']"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884034001' status='passed' stop='1671884034562'>
+                            <name>I switch to next tab </name>
+                            <title>I switch to next tab </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884034562' status='passed' stop='1671884037569'>
+                            <name>I wait 3</name>
+                            <title>I wait 3</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884037569' status='passed' stop='1671884037580'>
+                            <name>I see "Use your Google Account"</name>
+                            <title>I see "Use your Google Account"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884037580' status='passed' stop='1671884038323'>
+                            <name>I fill field "//input[@type='email']", "arun.akenapelli@b2btesters.com"</name>
+                            <title>I fill field "//input[@type='email']", "arun.akenapelli@b2btesters.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884038324' status='passed' stop='1671884038572'>
+                            <name>I click "//span[text()='Next']"</name>
+                            <title>I click "//span[text()='Next']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884038572' status='passed' stop='1671884039683'>
+                            <name>I see "arun.akenapelli@b2btesters.com"</name>
+                            <title>I see "arun.akenapelli@b2btesters.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884039683' status='passed' stop='1671884039694'>
+                            <name>I wait for visible "//input[@name='Passwd']", 10</name>
+                            <title>I wait for visible "//input[@name='Passwd']", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884039694' status='passed' stop='1671884040087'>
+                            <name>I fill field "//input[@name='Passwd']", "9849261360"</name>
+                            <title>I fill field "//input[@name='Passwd']", "9849261360"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884040087' status='passed' stop='1671884040305'>
+                            <name>I click "//span[text()='Next']"</name>
+                            <title>I click "//span[text()='Next']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884040305' status='passed' stop='1671884040413'>
+                            <name>I switch to previous tab </name>
+                            <title>I switch to previous tab </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884040413' status='passed' stop='1671884045413'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884045413' status='passed' stop='1671884062749'>
+                            <name>I wait for visible "//h1[text()='Library']", 100</name>
+                            <title>I wait for visible "//h1[text()='Library']", 100</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884062761' status='passed' stop='1671884063443'>
+                    <name>article3OPage: clickOnArticle3Ofeature </name>
+                    <title>article3OPage: clickOnArticle3Ofeature </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884062761' status='passed' stop='1671884062786'>
+                            <name>I wait for visible "//a[text()='Article And Blogs']", 50</name>
+                            <title>I wait for visible "//a[text()='Article And Blogs']", 50</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884062786' status='passed' stop='1671884063024'>
+                            <name>I click "//a[text()='Article And Blogs']"</name>
+                            <title>I click "//a[text()='Article And Blogs']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884063024' status='passed' stop='1671884063443'>
+                            <name>I click "//p[text()='AI Article Writer 3.0']"</name>
+                            <title>I click "//p[text()='AI Article Writer 3.0']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884063443' status='passed' stop='1671884063457'>
+                    <name>I see "AI Article Writer 3.0"</name>
+                    <title>I see "AI Article Writer 3.0"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884063457' status='passed' stop='1671884068942'>
+                    <name>AIArticlePage: setTopicField "Beauty of nature"</name>
+                    <title>AIArticlePage: setTopicField "Beauty of nature"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884063457' status='passed' stop='1671884068462'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884068462' status='passed' stop='1671884068942'>
+                            <name>I fill field "//input[@placeholder='Artificial Intelligence in Copywriting']", "Beauty of nature"</name>
+                            <title>I fill field "//input[@placeholder='Artificial Intelligence in Copywriting']", "Beauty of nature"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884068942' status='passed' stop='1671884069382'>
+                    <name>article3OPage: setQualityTypeAsEconomy "Economy"</name>
+                    <title>article3OPage: setQualityTypeAsEconomy "Economy"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884068942' status='passed' stop='1671884069220'>
+                            <name>I fill field "//input[@class='capitalize pl-3  bg-white border border-gray-200 rounded-lg pr-10 w-full py-2 focus:border-indigo-500 focus:outline-none focus:ring-0.5 focus:ring-purple-1 text-sm']", "Economy"</name>
+                            <title>I fill field "//input[@class='capitalize pl-3  bg-white border border-gray-200 rounded-lg pr-10 w-full py-2 focus:border-indigo-500 focus:outline-none focus:ring-0.5 focus:ring-purple-1 text-sm']", "Economy"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884069220' status='passed' stop='1671884069381'>
+                            <name>I click "//span[text()='economy']"</name>
+                            <title>I click "//span[text()='economy']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884069382' status='passed' stop='1671884069830'>
+                    <name>article3OPage: setLanguageAsEnglish "English"</name>
+                    <title>article3OPage: setLanguageAsEnglish "English"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884069382' status='passed' stop='1671884069667'>
+                            <name>I fill field "//input[@class='pl-10 bg-white border border-gray-200 rounded-lg pr-10 w-full py-2 focus:border-indigo-500 focus:outline-none focus:ring-0.5 focus:ring-purple-1 text-sm']", "English"</name>
+                            <title>I fill field "//input[@class='pl-10 bg-white border border-gray-200 rounded-lg pr-10 w-full py-2 focus:border-indigo-500 focus:outline-none focus:ring-0.5 focus:ring-purple-1 text-sm']", "English"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884069668' status='passed' stop='1671884069829'>
+                            <name>I click "//span[text()='English']"</name>
+                            <title>I click "//span[text()='English']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884069830' status='passed' stop='1671884069990'>
+                    <name>AIArticlePage: setOutputs "2"</name>
+                    <title>AIArticlePage: setOutputs "2"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884069830' status='passed' stop='1671884069989'>
+                            <name>I fill field "//input[@type='number']", "2"</name>
+                            <title>I fill field "//input[@type='number']", "2"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884069990' status='passed' stop='1671884070158'>
+                    <name>AIArticlePage: clickOnGenerateButton </name>
+                    <title>AIArticlePage: clickOnGenerateButton </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884069990' status='passed' stop='1671884070158'>
+                            <name>I click "//p[text()='Generate']"</name>
+                            <title>I click "//p[text()='Generate']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884070158' status='passed' stop='1671884072446'>
+                    <name>AIArticlePage: clickOnCopyBtn </name>
+                    <title>AIArticlePage: clickOnCopyBtn </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884070158' status='passed' stop='1671884072009'>
+                            <name>I wait for visible "//button[@aria-label='Copy to clipboard']", 30</name>
+                            <title>I wait for visible "//button[@aria-label='Copy to clipboard']", 30</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884072009' status='passed' stop='1671884072131'>
+                            <name>I move cursor to "//button[@aria-label='Copy to clipboard']"</name>
+                            <title>I move cursor to "//button[@aria-label='Copy to clipboard']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884072131' status='passed' stop='1671884072446'>
+                            <name>I click "//button[@aria-label='Copy to clipboard']"</name>
+                            <title>I click "//button[@aria-label='Copy to clipboard']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884072446' status='passed' stop='1671884072455'>
+                    <name>I see "Text has been copied to clipboard."</name>
+                    <title>I see "Text has been copied to clipboard."</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884072455' status='passed' stop='1671884073020'>
+                    <name>AIArticlePage: clickOnEditIcon </name>
+                    <title>AIArticlePage: clickOnEditIcon </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884072455' status='passed' stop='1671884072580'>
+                            <name>I move cursor to "//button[@aria-label='Edit']"</name>
+                            <title>I move cursor to "//button[@aria-label='Edit']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884072581' status='passed' stop='1671884072591'>
+                            <name>I wait for visible "//button[@aria-label='Edit']", 10</name>
+                            <title>I wait for visible "//button[@aria-label='Edit']", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884072591' status='passed' stop='1671884072851'>
+                            <name>I click "//button[@aria-label='Edit']"</name>
+                            <title>I click "//button[@aria-label='Edit']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884072851' status='passed' stop='1671884072859'>
+                            <name>I wait for visible "//div[text()='Save']", 10</name>
+                            <title>I wait for visible "//div[text()='Save']", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884072859' status='passed' stop='1671884073020'>
+                            <name>I click "//div[text()='Save']"</name>
+                            <title>I click "//div[text()='Save']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884073020' status='passed' stop='1671884075334'>
+                    <name>I see "Copy has been edited successfully!"</name>
+                    <title>I see "Copy has been edited successfully!"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884075335' status='passed' stop='1671884076141'>
+                    <name>AIArticlePage: clickOnDeleteIcon </name>
+                    <title>AIArticlePage: clickOnDeleteIcon </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884075335' status='passed' stop='1671884075345'>
+                            <name>I wait for visible "//button[@aria-label='Delete']//*[name()='svg']", 10</name>
+                            <title>I wait for visible "//button[@aria-label='Delete']//*[name()='svg']", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884075345' status='passed' stop='1671884075482'>
+                            <name>I move cursor to "//button[@aria-label='Delete']//*[name()='svg']"</name>
+                            <title>I move cursor to "//button[@aria-label='Delete']//*[name()='svg']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884075482' status='passed' stop='1671884075701'>
+                            <name>I click "//button[@aria-label='Delete']//*[name()='svg']"</name>
+                            <title>I click "//button[@aria-label='Delete']//*[name()='svg']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884075701' status='passed' stop='1671884075714'>
+                            <name>I wait for visible "//button[@aria-label='Delete']//*[name()='svg']", 10</name>
+                            <title>I wait for visible "//button[@aria-label='Delete']//*[name()='svg']", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884075714' status='passed' stop='1671884076141'>
+                            <name>I click "//div[text()='Delete']"</name>
+                            <title>I click "//div[text()='Delete']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884076141' status='passed' stop='1671884078464'>
+                    <name>I see "Copy has been deleted successfully."</name>
+                    <title>I see "Copy has been deleted successfully."</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884078464' status='passed' stop='1671884078674'>
+                    <name>article3OPage: clickOnRadioBtn </name>
+                    <title>article3OPage: clickOnRadioBtn </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884078464' status='passed' stop='1671884078674'>
+                            <name>I click "//span[@class='rounded-full w-3 h-3 bg-white']"</name>
+                            <title>I click "//span[@class='rounded-full w-3 h-3 bg-white']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884078674' status='passed' stop='1671884078683'>
+                    <name>I see "Title"</name>
+                    <title>I see "Title"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884078683' status='passed' stop='1671884079432'>
+                    <name>article3OPage: setQualityTypeAsEconomy "Economy"</name>
+                    <title>article3OPage: setQualityTypeAsEconomy "Economy"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884078683' status='passed' stop='1671884079259'>
+                            <name>I fill field "//input[@class='capitalize pl-3  bg-white border border-gray-200 rounded-lg pr-10 w-full py-2 focus:border-indigo-500 focus:outline-none focus:ring-0.5 focus:ring-purple-1 text-sm']", "Economy"</name>
+                            <title>I fill field "//input[@class='capitalize pl-3  bg-white border border-gray-200 rounded-lg pr-10 w-full py-2 focus:border-indigo-500 focus:outline-none focus:ring-0.5 focus:ring-purple-1 text-sm']", "Economy"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884079259' status='passed' stop='1671884079431'>
+                            <name>I click "//span[text()='economy']"</name>
+                            <title>I click "//span[text()='economy']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884079432' status='passed' stop='1671884079930'>
+                    <name>article3OPage: setLanguageAsEnglish "English"</name>
+                    <title>article3OPage: setLanguageAsEnglish "English"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884079432' status='passed' stop='1671884079760'>
+                            <name>I fill field "//input[@class='pl-10 bg-white border border-gray-200 rounded-lg pr-10 w-full py-2 focus:border-indigo-500 focus:outline-none focus:ring-0.5 focus:ring-purple-1 text-sm']", "English"</name>
+                            <title>I fill field "//input[@class='pl-10 bg-white border border-gray-200 rounded-lg pr-10 w-full py-2 focus:border-indigo-500 focus:outline-none focus:ring-0.5 focus:ring-purple-1 text-sm']", "English"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884079760' status='passed' stop='1671884079930'>
+                            <name>I click "//span[text()='English']"</name>
+                            <title>I click "//span[text()='English']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884079930' status='passed' stop='1671884080086'>
+                    <name>AIArticlePage: setOutputs "2"</name>
+                    <title>AIArticlePage: setOutputs "2"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884079930' status='passed' stop='1671884080086'>
+                            <name>I fill field "//input[@type='number']", "2"</name>
+                            <title>I fill field "//input[@type='number']", "2"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884080086' status='passed' stop='1671884080254'>
+                    <name>AIArticlePage: clickOnGenerateButton </name>
+                    <title>AIArticlePage: clickOnGenerateButton </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884080086' status='passed' stop='1671884080254'>
+                            <name>I click "//p[text()='Generate']"</name>
+                            <title>I click "//p[text()='Generate']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884080254' status='passed' stop='1671884084154'>
+                    <name>AIArticlePage: clickOnCopyBtn </name>
+                    <title>AIArticlePage: clickOnCopyBtn </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884080254' status='passed' stop='1671884083761'>
+                            <name>I wait for visible "//button[@aria-label='Copy to clipboard']", 30</name>
+                            <title>I wait for visible "//button[@aria-label='Copy to clipboard']", 30</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884083761' status='passed' stop='1671884083962'>
+                            <name>I move cursor to "//button[@aria-label='Copy to clipboard']"</name>
+                            <title>I move cursor to "//button[@aria-label='Copy to clipboard']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884083962' status='passed' stop='1671884084154'>
+                            <name>I click "//button[@aria-label='Copy to clipboard']"</name>
+                            <title>I click "//button[@aria-label='Copy to clipboard']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884084154' status='passed' stop='1671884084165'>
+                    <name>I see "Text has been copied to clipboard."</name>
+                    <title>I see "Text has been copied to clipboard."</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884084165' status='passed' stop='1671884085685'>
+                    <name>AIArticlePage: clickOnEditIcon </name>
+                    <title>AIArticlePage: clickOnEditIcon </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884084165' status='passed' stop='1671884084294'>
+                            <name>I move cursor to "//button[@aria-label='Edit']"</name>
+                            <title>I move cursor to "//button[@aria-label='Edit']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884084294' status='passed' stop='1671884084307'>
+                            <name>I wait for visible "//button[@aria-label='Edit']", 10</name>
+                            <title>I wait for visible "//button[@aria-label='Edit']", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884084307' status='passed' stop='1671884084541'>
+                            <name>I click "//button[@aria-label='Edit']"</name>
+                            <title>I click "//button[@aria-label='Edit']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884084541' status='passed' stop='1671884084550'>
+                            <name>I wait for visible "//div[text()='Save']", 10</name>
+                            <title>I wait for visible "//div[text()='Save']", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884084550' status='passed' stop='1671884085685'>
+                            <name>I click "//div[text()='Save']"</name>
+                            <title>I click "//div[text()='Save']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884085685' status='passed' stop='1671884090427'>
+                    <name>I see "Copy has been edited successfully!"</name>
+                    <title>I see "Copy has been edited successfully!"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884090427' status='passed' stop='1671884091206'>
+                    <name>AIArticlePage: clickOnDeleteIcon </name>
+                    <title>AIArticlePage: clickOnDeleteIcon </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884090427' status='passed' stop='1671884090437'>
+                            <name>I wait for visible "//button[@aria-label='Delete']//*[name()='svg']", 10</name>
+                            <title>I wait for visible "//button[@aria-label='Delete']//*[name()='svg']", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884090438' status='passed' stop='1671884090573'>
+                            <name>I move cursor to "//button[@aria-label='Delete']//*[name()='svg']"</name>
+                            <title>I move cursor to "//button[@aria-label='Delete']//*[name()='svg']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884090573' status='passed' stop='1671884090789'>
+                            <name>I click "//button[@aria-label='Delete']//*[name()='svg']"</name>
+                            <title>I click "//button[@aria-label='Delete']//*[name()='svg']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884090789' status='passed' stop='1671884090802'>
+                            <name>I wait for visible "//button[@aria-label='Delete']//*[name()='svg']", 10</name>
+                            <title>I wait for visible "//button[@aria-label='Delete']//*[name()='svg']", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884090803' status='passed' stop='1671884091206'>
+                            <name>I click "//div[text()='Delete']"</name>
+                            <title>I click "//div[text()='Delete']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884091206' status='passed' stop='1671884091698'>
+                    <name>I see "Copy has been deleted successfully."</name>
+                    <title>I see "Copy has been deleted successfully."</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884091698' status='passed' stop='1671884092157'>
+                    <name>article3OPage: clickOnRadioBtn </name>
+                    <title>article3OPage: clickOnRadioBtn </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884091698' status='passed' stop='1671884092157'>
+                            <name>I click "//span[@class='rounded-full w-3 h-3 bg-white']"</name>
+                            <title>I click "//span[@class='rounded-full w-3 h-3 bg-white']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884092157' status='passed' stop='1671884092256'>
+                    <name>I see "Article Intro"</name>
+                    <title>I see "Article Intro"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884092256' status='passed' stop='1671884092694'>
+                    <name>article3OPage: setQualityTypeAsEconomy "Economy"</name>
+                    <title>article3OPage: setQualityTypeAsEconomy "Economy"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884092256' status='passed' stop='1671884092524'>
+                            <name>I fill field "//input[@class='capitalize pl-3  bg-white border border-gray-200 rounded-lg pr-10 w-full py-2 focus:border-indigo-500 focus:outline-none focus:ring-0.5 focus:ring-purple-1 text-sm']", "Economy"</name>
+                            <title>I fill field "//input[@class='capitalize pl-3  bg-white border border-gray-200 rounded-lg pr-10 w-full py-2 focus:border-indigo-500 focus:outline-none focus:ring-0.5 focus:ring-purple-1 text-sm']", "Economy"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884092525' status='passed' stop='1671884092694'>
+                            <name>I click "//span[text()='economy']"</name>
+                            <title>I click "//span[text()='economy']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884092694' status='passed' stop='1671884092852'>
+                    <name>AIArticlePage: setOutputs "2"</name>
+                    <title>AIArticlePage: setOutputs "2"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884092694' status='passed' stop='1671884092852'>
+                            <name>I fill field "//input[@type='number']", "2"</name>
+                            <title>I fill field "//input[@type='number']", "2"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884092852' status='passed' stop='1671884093039'>
+                    <name>AIArticlePage: clickOnGenerateButton </name>
+                    <title>AIArticlePage: clickOnGenerateButton </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884092852' status='passed' stop='1671884093039'>
+                            <name>I click "//p[text()='Generate']"</name>
+                            <title>I click "//p[text()='Generate']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884093039' status='passed' stop='1671884095851'>
+                    <name>AIArticlePage: clickOnSelectindividualoutlinesToggleButton </name>
+                    <title>AIArticlePage: clickOnSelectindividualoutlinesToggleButton </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884093039' status='passed' stop='1671884095610'>
+                            <name>I wait for visible "//span[text()='Select individual outlines']", 30</name>
+                            <title>I wait for visible "//span[text()='Select individual outlines']", 30</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884095610' status='passed' stop='1671884095851'>
+                            <name>I click "//span[text()='Select individual outlines']"</name>
+                            <title>I click "//span[text()='Select individual outlines']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884095851' status='passed' stop='1671884095863'>
+                    <name>I see "Next"</name>
+                    <title>I see "Next"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884095863' status='passed' stop='1671884096052'>
+                    <name>AIArticlePage: clickOnSelectindividualoutlinesToggleButton </name>
+                    <title>AIArticlePage: clickOnSelectindividualoutlinesToggleButton </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884095863' status='passed' stop='1671884095872'>
+                            <name>I wait for visible "//span[text()='Select individual outlines']", 30</name>
+                            <title>I wait for visible "//span[text()='Select individual outlines']", 30</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884095872' status='passed' stop='1671884096052'>
+                            <name>I click "//span[text()='Select individual outlines']"</name>
+                            <title>I click "//span[text()='Select individual outlines']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884096052' status='passed' stop='1671884096628'>
+                    <name>AIArticlePage: clickOnCopyBtn </name>
+                    <title>AIArticlePage: clickOnCopyBtn </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884096052' status='passed' stop='1671884096291'>
+                            <name>I wait for visible "//button[@aria-label='Copy to clipboard']", 30</name>
+                            <title>I wait for visible "//button[@aria-label='Copy to clipboard']", 30</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884096291' status='passed' stop='1671884096410'>
+                            <name>I move cursor to "//button[@aria-label='Copy to clipboard']"</name>
+                            <title>I move cursor to "//button[@aria-label='Copy to clipboard']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884096411' status='passed' stop='1671884096628'>
+                            <name>I click "//button[@aria-label='Copy to clipboard']"</name>
+                            <title>I click "//button[@aria-label='Copy to clipboard']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884096628' status='passed' stop='1671884096639'>
+                    <name>I see "Text has been copied to clipboard."</name>
+                    <title>I see "Text has been copied to clipboard."</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884096639' status='passed' stop='1671884097173'>
+                    <name>AIArticlePage: clickOnEditIcon </name>
+                    <title>AIArticlePage: clickOnEditIcon </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884096639' status='passed' stop='1671884096763'>
+                            <name>I move cursor to "//button[@aria-label='Edit']"</name>
+                            <title>I move cursor to "//button[@aria-label='Edit']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884096763' status='passed' stop='1671884096772'>
+                            <name>I wait for visible "//button[@aria-label='Edit']", 10</name>
+                            <title>I wait for visible "//button[@aria-label='Edit']", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884096773' status='passed' stop='1671884096989'>
+                            <name>I click "//button[@aria-label='Edit']"</name>
+                            <title>I click "//button[@aria-label='Edit']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884096989' status='passed' stop='1671884097002'>
+                            <name>I wait for visible "//div[text()='Save']", 10</name>
+                            <title>I wait for visible "//div[text()='Save']", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884097002' status='passed' stop='1671884097173'>
+                            <name>I click "//div[text()='Save']"</name>
+                            <title>I click "//div[text()='Save']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884097173' status='passed' stop='1671884099496'>
+                    <name>I see "Copy has been edited successfully!"</name>
+                    <title>I see "Copy has been edited successfully!"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884099496' status='passed' stop='1671884100269'>
+                    <name>AIArticlePage: clickOnDeleteIcon </name>
+                    <title>AIArticlePage: clickOnDeleteIcon </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884099496' status='passed' stop='1671884099507'>
+                            <name>I wait for visible "//button[@aria-label='Delete']//*[name()='svg']", 10</name>
+                            <title>I wait for visible "//button[@aria-label='Delete']//*[name()='svg']", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884099507' status='passed' stop='1671884099624'>
+                            <name>I move cursor to "//button[@aria-label='Delete']//*[name()='svg']"</name>
+                            <title>I move cursor to "//button[@aria-label='Delete']//*[name()='svg']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884099624' status='passed' stop='1671884099843'>
+                            <name>I click "//button[@aria-label='Delete']//*[name()='svg']"</name>
+                            <title>I click "//button[@aria-label='Delete']//*[name()='svg']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884099844' status='passed' stop='1671884099858'>
+                            <name>I wait for visible "//button[@aria-label='Delete']//*[name()='svg']", 10</name>
+                            <title>I wait for visible "//button[@aria-label='Delete']//*[name()='svg']", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884099859' status='passed' stop='1671884100269'>
+                            <name>I click "//div[text()='Delete']"</name>
+                            <title>I click "//div[text()='Delete']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884100269' status='passed' stop='1671884101386'>
+                    <name>I see "Copy has been deleted successfully."</name>
+                    <title>I see "Copy has been deleted successfully."</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884101386' status='passed' stop='1671884101603'>
+                    <name>AIArticlePage: clickOnRadioBtnForOutline </name>
+                    <title>AIArticlePage: clickOnRadioBtnForOutline </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884101386' status='passed' stop='1671884101399'>
+                            <name>I wait for visible "//span[@class='h-5 w-5 mt-0.5 cursor-pointer rounded-full flex items-center justify-center border-gray-300 border']", 10</name>
+                            <title>I wait for visible "//span[@class='h-5 w-5 mt-0.5 cursor-pointer rounded-full flex items-center justify-center border-gray-300 border']", 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884101399' status='passed' stop='1671884101603'>
+                            <name>I click "//span[@class='h-5 w-5 mt-0.5 cursor-pointer rounded-full flex items-center justify-center border-gray-300 border']"</name>
+                            <title>I click "//span[@class='h-5 w-5 mt-0.5 cursor-pointer rounded-full flex items-center justify-center border-gray-300 border']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884101603' status='passed' stop='1671884102182'>
+                    <name>article3OPage: setQualityTypeAsEconomy "Economy"</name>
+                    <title>article3OPage: setQualityTypeAsEconomy "Economy"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884101603' status='passed' stop='1671884102015'>
+                            <name>I fill field "//input[@class='capitalize pl-3  bg-white border border-gray-200 rounded-lg pr-10 w-full py-2 focus:border-indigo-500 focus:outline-none focus:ring-0.5 focus:ring-purple-1 text-sm']", "Economy"</name>
+                            <title>I fill field "//input[@class='capitalize pl-3  bg-white border border-gray-200 rounded-lg pr-10 w-full py-2 focus:border-indigo-500 focus:outline-none focus:ring-0.5 focus:ring-purple-1 text-sm']", "Economy"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884102015' status='passed' stop='1671884102181'>
+                            <name>I click "//span[text()='economy']"</name>
+                            <title>I click "//span[text()='economy']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884102182' status='passed' stop='1671884102601'>
+                    <name>article3OPage: setLanguageAsEnglish "English"</name>
+                    <title>article3OPage: setLanguageAsEnglish "English"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884102182' status='passed' stop='1671884102431'>
+                            <name>I fill field "//input[@class='pl-10 bg-white border border-gray-200 rounded-lg pr-10 w-full py-2 focus:border-indigo-500 focus:outline-none focus:ring-0.5 focus:ring-purple-1 text-sm']", "English"</name>
+                            <title>I fill field "//input[@class='pl-10 bg-white border border-gray-200 rounded-lg pr-10 w-full py-2 focus:border-indigo-500 focus:outline-none focus:ring-0.5 focus:ring-purple-1 text-sm']", "English"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884102431' status='passed' stop='1671884102601'>
+                            <name>I click "//span[text()='English']"</name>
+                            <title>I click "//span[text()='English']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884102601' status='passed' stop='1671884102801'>
+                    <name>AIArticlePage: clickOnGenerateButton </name>
+                    <title>AIArticlePage: clickOnGenerateButton </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884102601' status='passed' stop='1671884102801'>
+                            <name>I click "//p[text()='Generate']"</name>
+                            <title>I click "//p[text()='Generate']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884102801' status='passed' stop='1671884115884'>
+                    <name>AIArticlePage: clickOnSaveBtn </name>
+                    <title>AIArticlePage: clickOnSaveBtn </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884102801' status='passed' stop='1671884115031'>
+                            <name>I wait for visible "//div[@class='sticky ml-8 left-4 bottom-4 gap-2 items-center hidden sm:flex tabletStars:sticky']//child::div//child::button", 180</name>
+                            <title>I wait for visible "//div[@class='sticky ml-8 left-4 bottom-4 gap-2 items-center hidden sm:flex tabletStars:sticky']//child::div//child::button", 180</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884115031' status='passed' stop='1671884115884'>
+                            <name>I click "//div[@class='sticky ml-8 left-4 bottom-4 gap-2 items-center hidden sm:flex tabletStars:sticky']//child::div//child::button"</name>
+                            <title>I click "//div[@class='sticky ml-8 left-4 bottom-4 gap-2 items-center hidden sm:flex tabletStars:sticky']//child::div//child::button"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884115884' status='passed' stop='1671884120639'>
+                    <name>I see "Copy has been saved successfully!"</name>
+                    <title>I see "Copy has been saved successfully!"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1671884120639' status='passed' stop='1671884120825'>
+                    <name>AIArticlePage: clickOnSaveBtn </name>
+                    <title>AIArticlePage: clickOnSaveBtn </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1671884120639' status='passed' stop='1671884120649'>
+                            <name>I wait for visible "//div[@class='sticky ml-8 left-4 bottom-4 gap-2 items-center hidden sm:flex tabletStars:sticky']//child::div//child::button", 180</name>
+                            <title>I wait for visible "//div[@class='sticky ml-8 left-4 bottom-4 gap-2 items-center hidden sm:flex tabletStars:sticky']//child::div//child::button", 180</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1671884120649' status='passed' stop='1671884120824'>
+                            <name>I click "//div[@class='sticky ml-8 left-4 bottom-4 gap-2 items-center hidden sm:flex tabletStars:sticky']//child::div//child::button"</name>
+                            <title>I click "//div[@class='sticky ml-8 left-4 bottom-4 gap-2 items-center hidden sm:flex tabletStars:sticky']//child::div//child::button"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1671884120825' status='passed' stop='1671884125558'>
+                    <name>I see "Copy has been unsaved successfully."</name>
+                    <title>I see "Copy has been unsaved successfully."</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <description type='text'>Verify Article 3.O feature</description>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

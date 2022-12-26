@@ -1,6 +1,5 @@
 
 const { I } = inject();
-
 class Article4OPage {
     //Elements--------------------------------------------------  
     btnSearchKeywords = "//div[text()='Search Keywords']";
@@ -28,6 +27,7 @@ class Article4OPage {
         I.click(this.btnSearchKeywords);
     };
     setToneOfVoice(toneofvoice) {
+        I.waitForVisible(this.lblToneOfVoice,20);
         I.fillField(this.lblToneOfVoice, toneofvoice);
     };
     setPointOfView(pointofview) {
@@ -52,9 +52,10 @@ class Article4OPage {
         I.click(this.txtWitty);
     };
     clickOnArticle4Ofeature() {
-        I.waitForVisible(this.tabArticleAndBlog, 50);
+        I.waitForVisible(this.tabArticleAndBlog, 180);
         I.click(this.tabArticleAndBlog);
         I.click(this.txtArticle4o);
+        I.wait(4);
     };
     clickOnKeywordCheckBox() {
         I.waitForVisible(this.chkKeyword,100);

@@ -22,6 +22,7 @@ class Article3OPage {
     I.fillField(this.txtQualityType, economy);
     I.click(this.txtEconomy);
   };
+ 
   setLanguageAsEnglish(english) {
     I.fillField(this.txtLanguage, english);
     I.click(this.txtEnglish);
