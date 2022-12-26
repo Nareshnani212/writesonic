@@ -12,7 +12,7 @@ setCommonPlugins();
 /** @type {CodeceptJS.MainConfig} */
 exports.config = {
   tests: './*_test.js',
-  output: './allure-report',
+  output: './output',
   helpers: {
     Playwright: {
       url: 'https://www.google.com/',
