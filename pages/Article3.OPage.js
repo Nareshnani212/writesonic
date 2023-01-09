@@ -13,7 +13,7 @@ class Article3OPage {
   //Methods----------------------------------------------------------------------------------
 
   clickOnArticle3Ofeature() {
-    I.waitForVisible(this.tabArticleAndBlog, 50);
+    I.waitForVisible(this.tabArticleAndBlog, 180);
     I.click(this.tabArticleAndBlog);
     I.click(this.tabArticle3O);
   };

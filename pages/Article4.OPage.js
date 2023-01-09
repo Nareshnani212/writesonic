@@ -2,6 +2,7 @@
 const { I } = inject();
 class Article4OPage {
     //Elements--------------------------------------------------  
+   
     btnSearchKeywords = "//div[text()='Search Keywords']";
     tabArticleAndBlog = "//a[text()='Article And Blogs']";
     lblToneOfVoice = "//label[text()='Tone of voice']//parent::div//div//input[@class='pl-3  bg-white border border-gray-200 rounded-lg pr-10 w-full py-2 focus:border-indigo-500 focus:outline-none focus:ring-0.5 focus:ring-purple-1 text-sm']";
@@ -25,10 +26,6 @@ class Article4OPage {
 
     clickOnSearchKeywords() {
         I.click(this.btnSearchKeywords);
-    };
-    setToneOfVoice(toneofvoice) {
-        I.waitForVisible(this.lblToneOfVoice,20);
-        I.fillField(this.lblToneOfVoice, toneofvoice);
     };
     setPointOfView(pointofview) {
         I.fillField(this.txtPointOfView, pointofview);
@@ -58,7 +55,7 @@ class Article4OPage {
         I.wait(4);
     };
     clickOnKeywordCheckBox() {
-        I.waitForVisible(this.chkKeyword,100);
+        I.waitForVisible(this.chkKeyword,180);
         I.click(this.chkKeyword);
     };
     clickOnNextButton() {

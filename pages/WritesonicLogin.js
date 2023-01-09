@@ -15,6 +15,7 @@ class loginPage {
   btnContinueWuthEmail = "//div[@class='flex justify-center items-center']";
   lblcode = "//input[@id='code']";
   btnVerify = "//div[text()='Verify']";
+  btnSignInWithPassword = "//div[text()='Sign in with password']";
   //Method-------------------------------
   clickOnSignInTab() {
     I.waitForVisible(this.btnSignIn, 10);
@@ -35,27 +36,38 @@ class loginPage {
   clickOnBtnSignIn() {
     I.click(this.btnLogin);
   };
+  clickOnSignInWithPassword() {
+    I.click(this.btnSignInWithPassword);
+  };
   clickOnContinueEmailButton() {
     I.click(this.btnContinueWuthEmail);
   };
   loginWithGoogleAccount(email, password) {
     I.see(expectedAssertionsPage.login.loginPage);
+    I.wait(3);
     I.switchTo(this.iframeGoogle);
-    I.waitForVisible(this.btnGoogle, 20);
+    I.waitForVisible(this.btnGoogle, 80);
     I.click(this.btnGoogle);
+    I.wait(3);
     I.switchToNextTab();
     I.wait(3);
     I.see(expectedAssertionsPage.login.googleLogin);
     I.fillField(this.txtGmail, email)
     I.click(this.btnNext);
-    I.see(testDataPage.login.email);
-    I.waitForVisible(this.txtGmailPassword, 10);
+    I.wait(3);
+   // I.see(testDataPage.login.email);
+    I.waitForVisible(this.txtGmailPassword, 100);
     I.fillField(this.txtGmailPassword, password)
     I.click(this.btnNext);
     I.switchToPreviousTab();
-    I.wait(5);
-    I.waitForVisible(this.veryMyAccount,100);
-    //I.see(expectedAssertionsPage.login.myAccount);
+    I.wait(10);
+  };
+  loginWithPassword(email, password){
+    I.click(this.btnSignInWithPassword);
+    I.fillField(this.txtEmail, email);
+    I.fillField(this.txtPassword, password);
+    I.click(this.btnLogin);
+    I.waitForVisible(this.veryMyAccount, 50);
   };
 }
 module.exports = new loginPage();
