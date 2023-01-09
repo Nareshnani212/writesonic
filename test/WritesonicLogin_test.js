@@ -2,6 +2,12 @@ const allure = codeceptjs.container.plugins('allure');
 Feature('SignIn');
 
 Scenario('@verify login By Invalid Password', ({ I, loginPage, testData, expectedAssertionsPage }) => {
+    allure.epic('Login Feature');
+    allure.feature('Login with invalid Password');
+    allure.severity('BLOCKER');
+    allure.setDescription('verify login By Invalid Password');
+
+
     I.amOnPage(testData.home.baseUrl);
     loginPage.clickOnSignInWithPassword();
     loginPage.setEmail(testData.login.email);
@@ -12,6 +18,11 @@ Scenario('@verify login By Invalid Password', ({ I, loginPage, testData, expecte
 
 });
 Scenario('@verify login By Invalid Email', ({ I, loginPage, testData, expectedAssertionsPage }) => {
+    allure.epic('Login Feature');
+    allure.feature('Login with Invalid Email');
+    allure.severity('BLOCKER');
+    allure.setDescription('verify login By Invalid Email');
+
     I.amOnPage(testData.home.baseUrl);
     loginPage.clickOnSignInWithPassword();
     loginPage.setEmail(testData.login.invalidemail);
@@ -20,6 +31,11 @@ Scenario('@verify login By Invalid Email', ({ I, loginPage, testData, expectedAs
     I.see(expectedAssertionsPage.login.invalidemailId);
 });
 Scenario('@verify login By Mandatory Validation For Email', ({ I, loginPage, testData, expectedAssertionsPage }) => {
+    allure.epic('Login Feature');
+    allure.feature('Login with Mandatory Validation For Email');
+    allure.severity('BLOCKER');
+    allure.setDescription('verify login By Mandatory Validation For Email');
+
     I.amOnPage(testData.home.baseUrl);
     loginPage.clickOnSignInWithPassword();
     loginPage.setEmail(testData.login.emptyemail);
@@ -28,6 +44,11 @@ Scenario('@verify login By Mandatory Validation For Email', ({ I, loginPage, tes
     I.wait(3);
 });
 Scenario('@verify login By Mandatory Validation For Password', ({ I, loginPage, testData, expectedAssertionsPage }) => {
+    allure.epic('Login Feature');
+    allure.feature('Login with Mandatory Validation For Password');
+    allure.severity('BLOCKER');
+    allure.setDescription('verify login By Mandatory Validation For Password');
+
     I.amOnPage(testData.home.baseUrl);
     loginPage.clickOnSignInWithPassword();
     loginPage.setEmail(testData.login.email);
@@ -36,6 +57,11 @@ Scenario('@verify login By Mandatory Validation For Password', ({ I, loginPage, 
     I.wait(3);
 });
 Scenario('@verify writesonic Login Functionality', ({ I, loginPage, testData, expectedAssertionsPage }) => {
+    allure.epic('Login Feature');
+    allure.feature('Login Functionality');
+    allure.severity('BLOCKER');
+    allure.setDescription('verify writesonic Login Functionality');
+
     I.amOnPage(testData.home.baseUrl);
     loginPage.clickOnSignInWithPassword();
     loginPage.setEmail(testData.login.email);
