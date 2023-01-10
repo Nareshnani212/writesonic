@@ -8,11 +8,15 @@ const cp = require('child_process');
 const clientPlaywrightVersion = cp.execSync('npx playwright --version').toString().trim().split(' ')[1];
 
 const caps = {
-  'browser': 'chrome', // allowed browsers are `chrome`, `edge`, `playwright-chromium`, `playwright-firefox` and `playwright-webkit`
+  'browser': 'playwright-webkit', // allowed browsers are `chrome`, `edge`, `playwright-chromium`, `playwright-firefox` and `playwright-webkit`
   'os': 'osx',
   'os_version': 'catalina',
-  'name': 'Codecept test using Playwright',
-  'build': 'CodeceptJS on BrowserStack',
+  'name': 'writesonic-automation',
+  'build': 'writesonic-automation',
+  'browserstack.networkLogs' : 'true',
+  'browserstack.networkLogsOptions': {
+    'captureContent': 'true'
+  },
   'browserstack.username': process.env.BROWSERSTACK_USERNAME || 'accounts_L3j4sc',
   'browserstack.accessKey': process.env.BROWSERSTACK_ACCESS_KEY || 'sP1rjdeieEGoeXcjrrHL',
   'client.playwrightVersion': clientPlaywrightVersion  // example '1.11.0'
